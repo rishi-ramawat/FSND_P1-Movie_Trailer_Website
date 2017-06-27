@@ -60,12 +60,19 @@ class Movie():
             print("Movie Data Not Found for IMDb Id: {}.".format(imdb_id))
             return None
 
+        movie_data["trailer_youtube_url"] = trailer_url
+
+        return cls.from_json(movie_data)
+
+    # A named constructor
+    @classmethod
+    def from_json(cls, movie_data):
         movie = cls(movie_data["Title"], movie_data["Genre"].split(", "))
         movie.year = movie_data["Year"]
         movie.rating = movie_data["imdbRating"]
         movie.story_line = movie_data["Plot"]
         movie.poster_image_url = movie_data["Poster"]
-        movie.trailer_youtube_url = trailer_url
+        movie.trailer_youtube_url = movie_data["trailer_youtube_url"]
 
         return movie
 
