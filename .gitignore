@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Generated HTML Files
+fresh_tomatoes.html
+
+# Allow bin/lib/
+!bin/lib/
