@@ -3,7 +3,7 @@ import json
 import media
 
 
-with open('movies_list.json', 'r') as file:
+with open('movies_list_omdb.json', 'r') as file:
     json_data = json.load(file)
 
 movies = []  # type: List[media.Movie]
