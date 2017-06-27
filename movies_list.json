@@ -1,0 +1,83 @@
+[
+    {
+        "Title": "Avatar",
+        "Genre": "Action, Adventure, Fantacy",
+        "Plot": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "Year": "2009",
+        "Rating": "7.8",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=5PSNL1qE6VY"
+    },
+    {
+        "Title": "Baahubali: The Beginning",
+        "Genre": "Action, Adventure, Drama",
+        "Plot": "In ancient India, an adventurous and daring man becomes involved in a decades old feud between two warring people.",
+        "Year": "2015",
+        "Rating": "8.3",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/7/7e/Baahubali_poster.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=3NQRhE772b0"
+    },
+    {
+        "Title": "Baahubali 2: The Conclusion",
+        "Genre": "Action, Adventure, Drama",
+        "Plot": "When Shiva, the son of Bahubali, learns about his heritage, he begins to look for answers. His story is juxtaposed with past events that unfolded in the Mahishmati Kingdom.",
+        "Year": "2017",
+        "Rating": "8.8",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/f/f9/Baahubali_the_Conclusion.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=qD-6d8Wo3do"
+    },
+    {
+        "Title": "Interstellar",
+        "Genre": "Action, Drama, Sci-Fi",
+        "Plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "Year": "2014",
+        "Rating": "8.6",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+    },
+    {
+        "Title": "Doctor Strange",
+        "Genre": "Action, Adventure, Fantacy",
+        "Plot": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+        "Year": "2016",
+        "Rating": "7.6",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Doctor_Strange_poster.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=Lt-U_t2pUHI"
+    },
+    {
+        "Title": "Sherlock Holmes",
+        "Genre": "Action, Adventure, Crime",
+        "Plot": "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England.",
+        "Year": "2009",
+        "Rating": "7.6",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Sherlock_holmes_ver5.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=Egcx63-FfTE"
+    },
+    {
+        "Title": "A Beautiful Mind",
+        "Genre": "Biography, Drama",
+        "Plot": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+        "Year": "2001",
+        "Rating": "8.2",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=WFJgUm7iOKw"
+    },
+    {
+        "Title": "I, Robot",
+        "Genre": "Action, Crime, Drama",
+        "Plot": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
+        "Year": "2004",
+        "Rating": "7.1",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Movie_poster_i_robot.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=rL6RRIOZyCM"
+    },
+    {
+        "Title": "Now You See Me",
+        "Genre": "Crime, Mystery, Thriller",
+        "Plot": "An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances and reward their audiences with the money.",
+        "Year": "2013",
+        "Rating": "7.3",
+        "Poster_Image_Url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Now_You_See_Me_Poster.jpg",
+        "Trailer_YouTube_Url": "https://www.youtube.com/watch?v=4OtM9j2lcUA"
+    }
+]
