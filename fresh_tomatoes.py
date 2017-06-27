@@ -157,7 +157,7 @@ def create_movie_tiles_content(movies):
             trailer_youtube_id=trailer_youtube_id,
             movie_year=movie.year,
             movie_genres=" - ".join(movie.genres),
-            movie_storyline=movie.story_line,
+            movie_storyline=movie.plot,
             movie_rating=movie.rating
         )
 

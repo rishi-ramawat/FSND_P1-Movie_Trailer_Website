@@ -9,21 +9,22 @@ class Movie():
 
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
-    def __init__(self, name: str, genres: List):
+    def __init__(self, name: str, genres: List, **kwargs):
         """Constructor of this class
 
             Args:
                 name (str): The Name/Title of the Movie.
                 genres (:obj:`list` of :obj:`str`): List of Genres
                                                     this movie belongs to.
+                **kwargs: Arbitrary keyword arguments.
         """
         self.title = name
         self.genres = genres
-        self.year = None
-        self.rating = None
-        self.story_line = None
-        self.poster_image_url = None
-        self.trailer_youtube_url = None
+        self.year = kwargs.get("Year", None)
+        self.rating = kwargs.get("Rating", None)
+        self.plot = kwargs.get("Plot", None)
+        self.poster_image_url = kwargs.get("Poster_Image_Url", None)
+        self.trailer_youtube_url = kwargs.get("Trailer_YouTube_Url", None)
 
     def __repr__(self):
         return "<{} Movie {}>".format(", ".join(self.genres), self.title)
@@ -60,7 +61,9 @@ class Movie():
             print("Movie Data Not Found for IMDb Id: {}.".format(imdb_id))
             return None
 
-        movie_data["trailer_youtube_url"] = trailer_url
+        movie_data["Rating"] = movie_data.pop("imdbRating")
+        movie_data["Poster_Image_Url"] = movie_data.pop("Poster")
+        movie_data["Trailer_YouTube_Url"] = trailer_url
 
         return cls.from_json(movie_data)
 
@@ -69,10 +72,10 @@ class Movie():
     def from_json(cls, movie_data):
         movie = cls(movie_data["Title"], movie_data["Genre"].split(", "))
         movie.year = movie_data["Year"]
-        movie.rating = movie_data["imdbRating"]
-        movie.story_line = movie_data["Plot"]
-        movie.poster_image_url = movie_data["Poster"]
-        movie.trailer_youtube_url = movie_data["trailer_youtube_url"]
+        movie.rating = movie_data["Rating"]
+        movie.plot = movie_data["Plot"]
+        movie.poster_image_url = movie_data["Poster_Image_Url"]
+        movie.trailer_youtube_url = movie_data["Trailer_YouTube_Url"]
 
         return movie
 
