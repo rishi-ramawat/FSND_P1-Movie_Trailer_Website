@@ -55,6 +55,16 @@ Run the following to generate `fresh_tomatoes.html`:
 $ python entertainment_center.py
 ```
 
+Project Screenshots
+-------------------
+
+_Simple home page where movies are laid out_
+![Simple home page where movies are laid out](https://user-images.githubusercontent.com/13311878/27624619-28e3f91a-5bff-11e7-8aa3-3f0c0a7bccaa.png "Simple home page where movies are laid out")
+
+
+_Page allows users to click on a movie image to watch its trailer_
+![Page allows users to click on a movie image to watch its trailer](https://user-images.githubusercontent.com/13311878/27624906-4d5f0798-5c00-11e7-959a-3232a2b7363d.png "Page allows users to click on a movie image to watch its trailer")
+
 [1]: https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004 "Udacity Nanodegree: Full Stack Web Developer"
 [2]: https://www.udacity.com/course/programming-foundations-with-python--ud036-nd "Udacity Course: Programming Foundations with Python"
 [3]: https://www.python.org/downloads/ "Download Python"
