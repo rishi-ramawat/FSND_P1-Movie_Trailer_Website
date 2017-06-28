@@ -6,7 +6,9 @@ import settings
 
 movies = []  # type: List[media.Movie]
 
-if settings.OMDB_API_KEY is not None:  # If you have access to OMDb API
+emptyValues = [None, "None", "null", False, ""]
+
+if settings.OMDB_API_KEY not in emptyValues:  # If you have access to OMDb API
     with open('movies_list_omdb.json', 'r') as file:
         json_data = json.load(file)
 
